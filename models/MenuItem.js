@@ -11,7 +11,7 @@ const menuItemSchema = new mongoose.Schema({
   },
   restaurant: {
     type: String,
-    enum: ["Punjabi Tadka", "Food Buff", "KFC"],
+    enum: ["Punjabi Tadka", "Food Buff", "KFC", "MCD"],
     required: true,
   },
 
